@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d167826-5696-4c2d-aa99-961abd6b2c65" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1alwPICV3YYV4ZNFKX4e4CRXBIJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc-php-crud-produto" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc_php_3\public" />
+      <recent name="C:\xampp\htdocs\mvc_php_3\view\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d167826-5696-4c2d-aa99-961abd6b2c65" name="Default Changelist" comment="" />
+      <created>1587323462287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587323462287</updated>
+      <workItem from="1587323463825" duration="8074000" />
+      <workItem from="1590208999123" duration="2551000" />
+      <workItem from="1590349817598" duration="2327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587332186069">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1587332186069" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587325751871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1587325751871" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590350580848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590350580848" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1587330990696" />
+    <state x="471" y="178" key="NewPhpClassDialog" timestamp="1590209837926">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="471" y="178" key="NewPhpClassDialog/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590209837926" />
+    <state x="471" y="178" key="NewPhpClassDialog/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1587324419177" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1587331225083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1587331225083" />
+    <state x="406" y="0" width="553" height="688" key="refactoring.ChangeSignatureDialog" timestamp="1587328593106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="406" y="0" width="553" height="688" key="refactoring.ChangeSignatureDialog/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1587328593106" />
+  </component>
+</project>
