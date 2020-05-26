@@ -25,7 +25,7 @@ class HomeController
         {
             $model = new UsuarioModel();
             $model->inserir();
-            return header('location: /mvc_php_3/?pagina=index');
+            return header('location: /SistLogin/?pagina=index');
         }
 
     }
@@ -37,7 +37,7 @@ class HomeController
         {
             unset($_SESSION['nome']);
             unset($_SESSION['senha']);
-            header('Location: /mvc_php_3/?pagina=index');
+            header('Location: /SistLogin/?pagina=index');
         }
         else
         {

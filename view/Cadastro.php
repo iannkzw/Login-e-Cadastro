@@ -5,14 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="http://localhost/mvc_php_3/public/css/style.css">
+    <link rel="stylesheet" href="http://localhost/SistLogin/public/css/style.css">
     <title>cadastro</title>
 </head>
 <body>
 <main>
     <div class="container">
         <div class="form-box">
-            <form action="/mvc_php_3/?pagina=cadastro" method="post">
+            <form action="/SistLogin/?pagina=cadastro" method="post">
                 <div>
                     <h1>Cadastro de Usuário</h1>
                 </div>
@@ -31,7 +31,7 @@
                 </div>
 
                 <div>
-                    Já é registrado? <a href="index.php">Faça login</a>.
+                    Já é registrado? <a href="/SistLogin/?pagina=index">Faça login</a>.
                 </div>
             </form>
         </div>

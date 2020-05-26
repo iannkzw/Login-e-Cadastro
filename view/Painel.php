@@ -26,7 +26,7 @@
                 <?php endforeach; ?>
                 </tbody>
             </table>
-            <a class="btn btn-success" href="/mvc_php_3/?pagina=index">Sair</a>
+            <a class="btn btn-success" href="/SistLogin/?pagina=index">Sair</a>
         </div>
     </div>
 </body>

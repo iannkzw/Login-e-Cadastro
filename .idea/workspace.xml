@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d167826-5696-4c2d-aa99-961abd6b2c65" name="Default Changelist" comment="" />
+    <list default="true" id="8d167826-5696-4c2d-aa99-961abd6b2c65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/UsuarioModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/UsuarioModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Verify.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Verify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/Cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/Cadastro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/Painel.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/Painel.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1alwPICV3YYV4ZNFKX4e4CRXBIJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,8 +32,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc-php-crud-produto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +61,7 @@
       <workItem from="1587323463825" duration="8074000" />
       <workItem from="1590208999123" duration="2551000" />
       <workItem from="1590349817598" duration="2327000" />
+      <workItem from="1590456233907" duration="2879000" />
     </task>
     <servers />
   </component>
@@ -55,6 +69,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="476" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1590457502364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590457502364" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587332186069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -68,10 +86,10 @@
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590350580848" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1587330990696" />
-    <state x="471" y="178" key="NewPhpClassDialog" timestamp="1590209837926">
+    <state x="471" y="178" key="NewPhpClassDialog" timestamp="1590456910099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="471" y="178" key="NewPhpClassDialog/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590209837926" />
+    <state x="471" y="178" key="NewPhpClassDialog/0.0.1366.728/-1280.-116.1280.984@0.0.1366.728" timestamp="1590456910099" />
     <state x="471" y="178" key="NewPhpClassDialog/0.0.1366.728/-1280.-62.1280.984@0.0.1366.728" timestamp="1587324419177" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1587331225083">
       <screen x="0" y="0" width="1366" height="728" />

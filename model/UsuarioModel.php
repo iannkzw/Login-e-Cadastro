@@ -3,6 +3,7 @@
 namespace model;
 
 use model\Entidades\Conn;
+use model\Entidades\Password;
 
 class UsuarioModel extends Conn
 {
@@ -18,16 +19,14 @@ class UsuarioModel extends Conn
 
     public function inserir() {
 
-        $salt = '1%1cAu!g+>K53PY}';
-
         $nome = $_POST['nome'] ?? null;
-        $senha = md5($_POST['senha'] . $salt) ?? null;
+        $hash = password_hash($_POST['senha'], PASSWORD_DEFAULT);
 
         $sql = 'INSERT INTO cadastro (nome, senha) VALUES (:nome, :senha)';
 
         $stmt = $this->connect()->prepare($sql);
         $stmt->bindValue(':nome', $nome);
-        $stmt->bindValue(':senha', $senha);
+        $stmt->bindValue(':senha', $hash);
         $stmt->execute();
 
     }

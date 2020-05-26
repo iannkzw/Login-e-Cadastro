@@ -4,33 +4,34 @@
 namespace model;
 
 
+use model\Entidades\Password;
+
 class Verify extends UsuarioModel
 {
     public function Login ()
     {
 
-        $salt = '1%1cAu!g+>K53PY}';
-
         $nome = $_POST['nome'] ?? null;
-        $senha = md5($_POST['senha'] . $salt) ?? null;
+        $senha = $_POST['senha'] ?? null;
+        $hash = password_hash($senha, PASSWORD_DEFAULT);
 
         $users = $this->ListarUsuario();
 
         foreach ($users as $user) {
             if ($user['nome'] == $nome)
             {
-                if (!strcmp($senha, $user['senha']))
+                if (password_verify($senha, $hash))
                 {
                     $_SESSION['nome'] = $nome;
                     $_SESSION['senha'] = $senha;
 
-                    header('location: /mvc_php_3/?pagina=painel');
+                    header('location: /SistLogin/?pagina=painel');
                     die();
                 }
                 else
                 {
                     echo "senha incorreta";
-                    echo "<a href='/mvc_php_3/?pagina=index'>" . "Voltar" . "</a>";
+                    echo "<a href='/SistLogin/?pagina=index'>" . "Voltar" . "</a>";
                     die();
                 }
 
@@ -39,7 +40,7 @@ class Verify extends UsuarioModel
             {
                 unset ($_SESSION['nome']);
                 unset ($_SESSION['senha']);
-                header('location: /mvc_php_3/?pagina=index');
+                header('location: /SistLogin/?pagina=index');
             }
         }
     }
